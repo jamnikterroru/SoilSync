@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2596_module")(type "KiCad")(uri "C:/Users/Jasieniek/GitHub/SoilSync/Hardware/Library/LM2596_module.kicad_sym")(options "")(descr ""))
+  (lib (name "CustomModule")(type "KiCad")(uri "C:/Users/Jasieniek/GitHub/SoilSync/Hardware/Library/CustomModule.kicad_sym")(options "")(descr ""))
+)
