@@ -10,6 +10,7 @@
 			(at 8.128 -14.224 0)
 			(effects
 				(font
+					(face "KiCad Font")
 					(size 1.27 1.27)
 				)
 			)
@@ -64,7 +65,7 @@
 		)
 		(symbol "TP5100_Module_1_1"
 			(pin power_out line
-				(at -2.54 -4 0)
+				(at -2.54 -3.302 0)
 				(length 2.54)
 				(name "BAT+"
 					(effects
@@ -100,6 +101,24 @@
 				)
 			)
 			(pin power_in line
+				(at 17.78 -3.302 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 17.78 -10 180)
 				(length 2.54)
 				(name "GND"
@@ -110,24 +129,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.907 -4 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

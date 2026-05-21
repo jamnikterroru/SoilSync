@@ -2268,8 +2268,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U5"
-				(at 7.6835 5.08 0)
+			(property "Reference" "U"
+				(at 8.128 -14.224 0)
 				(effects
 					(font
 						(face "KiCad Font")
@@ -2277,15 +2277,15 @@
 					)
 				)
 			)
-			(property "Value" "TP5100"
-				(at 7.6835 2.54 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Modules:TP5100_Module"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2327,7 +2327,7 @@
 			)
 			(symbol "TP5100_Module_1_1"
 				(pin power_out line
-					(at -2.54 -3.81 0)
+					(at -2.54 -4.92 0)
 					(length 2.54)
 					(name "BAT+"
 						(effects
@@ -2363,7 +2363,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -3.81 180)
+					(at 17.78 -4.92 180)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -3080,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 54.61 87.63)
+			(xy 52.07 87.63) (xy 57.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3170,6 +3170,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 82.55) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e51149-a100-4698-8a8a-902b96fa7c18")
+	)
+	(wire
+		(pts
 			(xy 53.34 101.76) (xy 60.96 101.76)
 		)
 		(stroke
@@ -3207,6 +3217,16 @@
 			(type default)
 		)
 		(uuid "7d67b9f2-def7-46e3-892e-525a9a392787")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e848ff8-11ed-4f92-b1bf-ad98d94bf5b1")
 	)
 	(wire
 		(pts
@@ -3297,6 +3317,16 @@
 			(type default)
 		)
 		(uuid "9d503276-964b-45aa-a29a-e339e596eb5f")
+	)
+	(wire
+		(pts
+			(xy 52.07 82.55) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1ca600-1af7-4005-ab80-a99823108ed9")
 	)
 	(wire
 		(pts
@@ -3547,6 +3577,16 @@
 			(justify right bottom)
 		)
 		(uuid "4c0ff256-c32c-466b-b65c-dc7f6c08f18d")
+	)
+	(label "VIN"
+		(at 57.15 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5de851b2-3ad0-44d5-99f1-db475b3a0c50")
 	)
 	(label "SENSOR_1"
 		(at 266.7 82.55 180)
@@ -7188,6 +7228,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe8d17db-e041-4971-ab02-5b3d552f7ecf")
+		(property "Reference" "#PWR029"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8364d30-2478-49fc-bb3d-631dddd28fce")
+		)
+		(instances
+			(project ""
+				(path "/3e3c5228-e247-4567-a085-5b3516ef26ec"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 78.74 154.94 90)
 		(unit 1)
@@ -7250,48 +7356,6 @@
 				(path "/3e3c5228-e247-4567-a085-5b3516ef26ec"
 					(reference "#PWR014")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 16.51 185.42)
-		(size 15.24 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "74bb9d69-d4a2-4b2e-9679-83f2de6449d7")
-		(property "Sheetname" "SENSORs_sheet"
-			(at 16.51 184.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 16.51 193.6246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "soilsync"
-				(path "/3e3c5228-e247-4567-a085-5b3516ef26ec"
-					(page "2")
 				)
 			)
 		)
