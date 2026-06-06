@@ -1,0 +1,16 @@
+** Drc report for soilsync.kicad_pcb **
+** Created on 2026-06-06T14:38:42+0200 **
+
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'DIP-40_W15.24mm_LongPads' nie odpowiada jego kopii w bibliotece 'Package_DIP'.
+    Wartość lokalna; warning
+    @(211,3280 mm, 87,6300 mm): Footprint U1
+
+** Found 0 unconnected pads **
+
+** Found 1 Footprint errors **
+[footprint_symbol_mismatch]: Package_DIP:DIP-40_W15.24mm_LongPads nie odpowiada footprintowi podanemu przez symbol (STM32_Footprints:YAAJ_BluePill_1).
+    Wartość lokalna; warning
+    @(211,3280 mm, 87,6300 mm): Footprint U1
+
+** End of Report **
