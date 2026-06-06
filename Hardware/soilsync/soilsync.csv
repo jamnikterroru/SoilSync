@@ -1,0 +1,16 @@
+"Id";"Oznaczenie";"Footprint";"Liczba";"Oznaczenie";"Dostawca i numer artykułu";
+1;"D1,D4,D2";"D_SMC";3;"MBRS340";;;
+2;"J15";"PinHeader_1x02_P2.54mm_Vertical";1;"USART";;;
+3;"R3,R5,R7,R9,R1,R17,R11,R19,R13,R15";"R_0805_2012Metric";10;"4.7k";;;
+4;"J10,J5,J2,J3,J6,J8,J4,J7,J11,J9";"TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal";10;"Screw_Terminal_01x03";;;
+5;"U3";"nRF24L01_Breakout";1;"NRF24L01_Breakout";;;
+6;"R22";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";1;"100";;;
+7;"J12";"TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal";1;"PUMP_Terminal";;;
+8;"R6,R8,R2,R4,R10,R14,R20,R16,R12,R18";"R_0805_2012Metric";10;"8.2k";;;
+9;"U5";"TP5100_Module";1;"TP5100";;;
+10;"J1";"BarrelJack_Horizontal";1;"Barrel_Jack_Switch";;;
+11;"J14";"TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal";1;"BMS_Terminal";;;
+12;"U2";"LM2596 module";1;"LM2596";;;
+13;"U1";"DIP-40_W15.24mm_LongPads";1;"YAAJ_BluePill";;;
+14;"U4";"SOT-223-3_TabPin2";1;"AMS1117-3.3";;;
+15;"Q1";"TO-220-3_Vertical";1;"IRLZ44N";;;
